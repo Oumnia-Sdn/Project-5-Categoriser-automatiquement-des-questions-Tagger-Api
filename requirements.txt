@@ -1,0 +1,28 @@
+# packaging
+pip>=9
+setuptools>=26
+twine
+wheel>=0.29
+
+# data science
+numpy
+pandas
+nltk
+scikit-learn
+matplotlib
+
+# tests/linter
+black
+coverage
+flake8
+pytest
+yapf
+
+# utilities
+six>=1.14
+joblib
+memoized-property
+termcolor
+
+streamlit
+streamlit_drawable_canvas
