@@ -20,9 +20,9 @@ app.add_middleware(
 )
 
 #load verctorizer and model
-vectorizer = joblib.load("api/tfidf_vectorizer.pkl", 'r')
-multilabel_binarizer = joblib.load("api/multilabel_binarizer.pkl", 'r')
-model = joblib.load("api/logit_model.pkl", 'r')
+vectorizer = joblib.load("tfidf_vectorizer.pkl", 'r')
+multilabel_binarizer = joblib.load("multilabel_binarizer.pkl", 'r')
+model = joblib.load("logit_model.pkl", 'r')
 nlp = spacy.load("en_core_web_sm")
 #nlp = spacy.load('en_core_web_md', exclude=['tok2vec', 'ner', 'parser', 'attribute_ruler', 'lemmatizer'])
 
