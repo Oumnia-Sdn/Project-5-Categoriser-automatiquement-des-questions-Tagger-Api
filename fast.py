@@ -1,6 +1,4 @@
 # $DELETE_BEGIN
-import pytz
-import io
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import joblib
