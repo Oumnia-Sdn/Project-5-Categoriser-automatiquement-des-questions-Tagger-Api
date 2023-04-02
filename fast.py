@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import joblib
 import pandas as pd
 import spacy
-#import en_core_web_sm
+import en_core_web_sm
 import preprocessing as preproc
 
 app = FastAPI()
