@@ -15,7 +15,8 @@ nltk
 scikit-learn
 matplotlib
 spacy
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.3.0/en_core_web_sm-3.3.0-py3-none-any.whllangdetect
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.3.0/en_core_web_sm-3.3.0-py3-none-any.whl
+langdetect
 deep-translator==1.10.1
 
 # tests/linter
